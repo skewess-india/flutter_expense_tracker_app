@@ -19,7 +19,7 @@ class MyHomePage extends StatelessWidget {
           body: controller.bottomindex == 0
               ? HomeScreen()
               : controller.bottomindex == 1
-                  ? PicUploadScreen()
+                  ? SnapArea()
                   : Center(child: Text("welcome")),
           bottomNavigationBar: _buildOriginDesign());
     });

@@ -34,13 +34,20 @@ dependencies:
   dropdown_button2: null
   flutter:
     sdk: flutter
-  # flutter_icons: ^1.1.0
   flutter_screenutil: null
   get: null
   get_storage: null
   google_fonts: null
-  image_picker: null
+  image: ^3.1.1
+  image_cropper: ^3.0.0
+  image_cropping: ^0.0.9
+  image_picker: ^0.8.5+3
+  image_save: ^5.0.0
+  
   intl: null
+  nanoid: ^1.0.0
+  pdf: ^3.8.3
+  screenshot: ^1.2.3
   sqflite: null
 
 dev_dependencies:
