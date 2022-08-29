@@ -27,16 +27,19 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  awesome_bottom_bar: ^1.2.1
   cupertino_icons: ^1.0.2
+  custom_navigation_bar: ^0.8.2
   date_picker_timeline: null
   dropdown_button2: null
   flutter:
     sdk: flutter
+  # flutter_icons: ^1.1.0
   flutter_screenutil: null
   get: null
   get_storage: null
   google_fonts: null
-  image_picker: 
+  image_picker: null
   intl: null
   sqflite: null
 

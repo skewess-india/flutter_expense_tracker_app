@@ -8,6 +8,10 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 
+import 'package:custom_navigation_bar/custom_navigation_bar.dart';
+
+import 'views/screens/bottompage.dart';
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await ScreenUtil.ensureScreenSize();
@@ -44,7 +48,25 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child: HomeScreen(),
+      child: MyHomePage(title: 'Safe Doc'),
     );
   }
 }
+
+
+
+// void main() => runApp(MyApp());
+
+// class MyApp extends StatelessWidget {
+//   // This widget is the root of your application.
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       title: 'Custom Navigation Bar Example',
+//       theme: ThemeData(
+//         primarySwatch: Colors.blue,
+//       ),
+//       home: MyHomePage(title: 'Safe Doc'),
+//     );
+//   }
+// }
