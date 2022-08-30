@@ -32,18 +32,20 @@ dependencies:
   custom_navigation_bar: ^0.8.2
   date_picker_timeline: null
   dropdown_button2: null
+  firebase_auth: ^3.7.0
+  firebase_core: ^1.21.1
   flutter:
     sdk: flutter
   flutter_screenutil: null
   get: null
   get_storage: null
   google_fonts: null
+  google_sign_in: ^5.4.1
   image: ^3.1.1
   image_cropper: ^3.0.0
   image_cropping: ^0.0.9
   image_picker: ^0.8.5+3
   image_save: ^5.0.0
-  
   intl: null
   nanoid: ^1.0.0
   pdf: ^3.8.3

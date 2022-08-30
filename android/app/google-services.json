@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "76665611500",
+    "project_id": "safedoc-e417e",
+    "storage_bucket": "safedoc-e417e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76665611500:android:2966add3ec10421db3f1c9",
+        "android_client_info": {
+          "package_name": "com.example.flutter_expense_tracker_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76665611500-ne0mv7i0uof73c5mgi0t4ptfqjclhh05.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_expense_tracker_app",
+            "certificate_hash": "6a6e9879d7443fdf973e53db4671685fe4a82a12"
+          }
+        },
+        {
+          "client_id": "76665611500-g10n8n1nvjkf71cfjpgec54k7cnpp0hc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpg_viXxunn--c1z6Ke2a0QV6ORNjJzOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76665611500-g10n8n1nvjkf71cfjpgec54k7cnpp0hc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

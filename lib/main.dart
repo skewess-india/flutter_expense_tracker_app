@@ -1,3 +1,4 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_expense_tracker_app/constants/theme.dart';
@@ -20,6 +21,7 @@ void main() async {
   await DatabaseProvider.initDb();
 
   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
+  await Firebase.initializeApp();
   runApp(
     MyApp(),
   );
